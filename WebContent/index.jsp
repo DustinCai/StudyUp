@@ -78,7 +78,7 @@
        	Location loc = Lookup.lookupPlace(place);
        	if (loc != null) {
         	double lat = loc.getLat(); 
-        	double lon = loc.getLon(); 
+        	double lon = loc.getLon(); %>
         	<script>gotoLoc(<%=lat%>, <%=lon%>);</script>
        	<%}
        }%>
