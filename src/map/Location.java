@@ -1,8 +1,7 @@
 package map;
 
-import java.lang;
 
-public class Location extends lang {
+public class Location {
 
 	private double lat;
 	private double lon;
